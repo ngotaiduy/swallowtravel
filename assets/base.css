@@ -1,0 +1,40 @@
+:root {
+    --header-height: 88px;
+
+
+    --red-color: #de0505;
+    --blue-color: #0c4da0;
+    --button-color: #01bfd7;
+    --hover-color: #f58220;
+    --black-text-color: #080808;
+    --grey-color: #666666;
+    --blue-text-color: #245eaa;
+    --rgba-blue: #33cccc;
+}
+
+* {
+    box-sizing: inherit;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    line-height: 2.4rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container1 {
+    max-width: 1200px;
+    margin: auto;
+}

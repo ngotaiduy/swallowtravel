@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+    <!-- Boostrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--OWL Crousel -->
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css" />
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <!-- FONT TEXT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap"
+        rel="stylesheet" />
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/base.css" />
+    <link rel="stylesheet" href="./assets/header.css" />
+    <link rel="stylesheet" href="./assets/footer.css" />
+    <link rel="stylesheet" href="./assets/home-css/main.css" />
+    <link rel="stylesheet" href="./assets/home-css/home-responsive.css" />
+    <link rel="stylesheet" href="./assets/Hue-PhongNha-Tours/Hue-PhongNha-Tours.css">
+    <title>VENUS TRAVEL</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="app">
+        <header class="header-swallow-travel">
+            <div class="container">
+              <div class="nav__header-2021">
+                <!-- PC -->
+                <nav class="container nav__header hide-on-table-mobile">
+                  <div class="nav__menu-left">
+                    <div class="menu-left__logo">
+                      <a href="http://192.168.31.1:5500/home.html" class="menu-left__logo-link">
+                        <img src="./assets/img/venus-travel-logo-moi.png" alt="" class="menu-left__img" />
+                      </a>
+                    </div>
+                    
+                    <div class="menu-left__main hide-on-table-mobile">
+                      <ul class="menu-left__main-list" style="display: flex">
+                        <li class="menu-left__main-item">
+                          <div class="dropdown">
+                            <button class="dropbtn">
+                              DESTINATIONS<i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                              <a href="http://192.168.31.1:5500/Destination-VietNam.html">VIETNAM</a>
+                              <a href="#">CAMBODIA</a>
+                              <a href="#">LAOS</a>
+                              <a href="#">MYANMAR</a>
+                              <a href="#">THAILAND</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="menu-left__main-item">
+                          <div class="dropdown">
+                            <button class="dropbtn">
+                              VIETNAM TOURS <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="dropdown-content-travel">
+                              <div class="dropdown-content-horizontal">
+                                <div class="col-sm-4">
+                                  <div class="submenu-travel">
+                                    <img src="./assets/img/7-1563115999223.jpg" alt="" class="submenu-travel__img" />
+                                    <div class="submenu-travel__text">
+                                      <p>
+                                        <a href="#">ONE DAY TOURS</a>
+                                      </p>
+                                    </div>
+                                  </div>
+                                  <ul class="submenu-travel__list">
+                                    <li class="submenu-travel__item">
+                                      <a href="http://192.168.31.1:5500/Hue-PhongNha-Tours.html" class="submenu-travel__link">Hue - Phong Nha Day Tour</a>
+                                    </li>
+                                    <li class="submenu-travel__item">
+                                      <a href="#" class="submenu-travel__link">Hanoi Day Tour</a>
+                                    </li>
+                                    <li class="submenu-travel__item">
+                                      <a href="#" class="submenu-travel__link">Hoi An Day Tour</a>
+                                    </li>
+                                    <li class="submenu-travel__item">
+                                      <a href="#" class="submenu-travel__link">Da Nang Day Tour</a>
+                                    </li>
+                                    <li class="submenu-travel__item">
+                                      <a href="#" class="submenu-travel__link">Da Lat Day Tour</a>
+                                    </li>
+                                    <li class="submenu-travel__item">
+                                      <a href="#" class="submenu-travel__link">Phu Quoc Day Tour</a>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <div class="col-sm-4">
+                                  <div class="submenu-travel">
+                                    <img src="./assets/img/nhung-khach-san-gia-re-tai-ha-long-ma-ban-nen-biet1.jpg" alt=""
+                                      class="submenu-travel__img" />
+                                    <div class="submenu-travel__text">
+                                      <p>
+                                        <a href="#">HA LONG TOURS</a>
+                                      </p>
+                                    </div>
+                                  </div>
+                                  <ul class="submenu-travel__list">
+                                    <li class="submenu-travel__item">
+                                      <a href="#" class="submenu-travel__link">Luxury Cruises</a>
+                                    </li>
+                                    <li class="submenu-travel__item">
+                                      <a href="#" class="submenu-travel__link">Deluxe Cruises</a>
+                                    </li>
+                                    <li class="submenu-travel__item">
+                                      <a href="#" class="submenu-travel__link">Standard Cruises</a>
+                                    </li>
+                                    <li class="submenu-travel__item">
+                                      <a href="#" class="submenu-travel__link">One Day Cruises</a>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <div class="col-sm-4">
+                                  <div class="submenu-travel">
+                                    <img src="./assets/img/Khiri-Travel-Vietnam-Mekong-Delta.jpg" alt=""
+                                      class="submenu-travel__img" />
+                                    <div class="submenu-travel__text">
+                                      <p>
+                                        <a href="#">MEKONG DELTA TOURS</a>
+                                      </p>
+                                    </div>
+                                  </div>
+                                  <div class="submenu-travel">
+                                    <img src="./assets/img/go-to-sapa.jpg" alt="" class="submenu-travel__img" />
+                                    <div class="submenu-travel__text">
+                                      <p>
+                                        <a href="#">SAPA-NORTHWES TOURS</a>
+                                      </p>
+                                    </div>
+                                  </div>
+                                  <div class="submenu-travel">
+                                    <img src="./assets/img/ninh-binh.jpg" alt="" class="submenu-travel__img" />
+                                    <div class="submenu-travel__text">
+                                      <p>
+                                        <a href="#">NINH BINH TOURS</a>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="menu-left__main-item">
+                          <div class="dropdown">
+                            <button class="dropbtn">
+                              MULTI-COUNTRY TOURS<i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                              <a href="#">VIETNAM - CAMBODIA</a>
+                              <a href="#">VIETNAM - LAOS</a>
+                              <a href="#">VIETNAM - MYANMAR</a>
+                              <a href="#">VIETNAM - THAILAND</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="menu-left__main-item">
+                          <div class="dropdown">
+                            <button class="dropbtn">
+                              TRAVEL SERVICES<i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                              <a href="http://192.168.31.1:5500/VN-Fes-and-Event.html">Vietnam's Festivals and Events</a>
+                              <a href="http://192.168.31.1:5500/VN-Visa-Services.html">VIETNAM VISA SERVICES</a>
+                              <a href="#">TRANSPORATION</a>
+                              <a href="#">FLIGHT TICKET</a>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="nav__menu-right hide-on-table-mobile ">
+                    <a href="mailto:NAME@COMPANY.COM" class="menu-right__mail">
+                      <i class="fas fa-envelope"></i>
+                      NAME@COMPANY.COM
+                    </a>
+                  </div>
+                </nav>
+      
+                <!-- Mobile -->
+                <div class="menu-left__logo-mb hide-on-pc">
+                  <a href="#" class="menu-left__logo-link-mb">
+                    <img src="./assets/img/venus-travel-logo-moi.png" alt="" class="menu-left__img-mb" />
+                  </a>
+                </div>
+                <label for="nav__mobile-input" class="nav__bars-btn ">
+                  <i class="fas fa-bars"></i>
+                </label>
+                <input type="checkbox" hidden name="" id="nav__mobile-input" class="nav__mb-input">
+      
+                <nav class="nav__mobile">
+                  <ul class="nav__mobile-list">
+                    <!-- 1 -->
+                    <li class="nav__mobile-items">
+                      <label href="#" for="nav__mobile-check-lv1" class="nav__mobile-links">
+                        DESTINATIONS
+                        <input type="checkbox" hidden name="" id="nav__mobile-check-lv1" class="nav__mb-check-lv1">
+      
+                        <ul class="nav__mobile-links-list1">
+                          <li class="nav__mobile-links-item">
+                            <a href="#">VIETNAM</a>
+                          </li>
+                          <li class="nav__mobile-links-item">
+                            <a href="#">CAMBODIA</a>
+                          </li>
+                          <li class="nav__mobile-links-item">
+                            <a href="#">LAOS</a>
+                          </li>
+                          <li class="nav__mobile-links-item">
+                            <a href="#">MYANMAR</a>
+                          </li>
+                          <li class="nav__mobile-links-item">
+                            <a href="#">THAILAND</a>
+                          </li>
+                        </ul>
+                      </label>
+                      <div class="nav__mobile-icon">
+                        <i class="fas fa-chevron-right"></i>
+                      </div>
+                    </li>
+                    <!-- 2 -->
+                    <li class="nav__mobile-items">
+                      <div style="display: block; width: 100%">
+                        <label href="#" for="nav__mobile-check-lv2" class="nav__mobile-links">
+                          VIETNAM TOURS
+                          <input type="checkbox" hidden name="" id="nav__mobile-check-lv2" class="nav__mb-check-lv2">
+      
+                          <ul class="nav__mobile-links-list2">
+                            <li class="nav__mobile-links-item">
+                              <a href="#">ONE DAY TOURS</a>
+                            </li>
+                            <li class="nav__mobile-links-item">
+                              <a href="#">HA LONG TOURS</a>
+                            </li>
+                            <li class="nav__mobile-links-item">
+                              <a href="#">MEKONG TOURS</a>
+                            </li>
+                            <li class="nav__mobile-links-item">
+                              <a href="#">SAPA-NORTHWEST TOURS</a>
+                            </li>
+                            <li class="nav__mobile-links-item">
+                              <a href="#">NINH BINH TOURS</a>
+                            </li>
+                          </ul>
+                        </label>
+      
+                      </div>
+                      <div class="nav__mobile-icon">
+                        <i class="fas fa-chevron-right"></i>
+                      </div>
+                    </li>
+                    <!-- 3 -->
+                    <li class="nav__mobile-items">
+                      <div style="display: block; width: 100%">
+                        <label href="#" for="nav__mobile-check-lv3" class="nav__mobile-links">
+                          MULTI-COUNTRY TOURS
+                          <input type="checkbox" hidden name="" id="nav__mobile-check-lv3" class="nav__mb-check-lv3">
+      
+                          <ul class="nav__mobile-links-list3">
+                            <li class="nav__mobile-links-item">
+                              <a href="#">VIETNAM - CAMBODIA - LAOS</a>
+                            </li>
+                            <li class="nav__mobile-links-item">
+                              <a href="#">VIETNAM - CAMBODIA</a>
+                            </li>
+                            <li class="nav__mobile-links-item">
+                              <a href="#">VIETNAM - LAOS</a>
+                            </li>
+                            <li class="nav__mobile-links-item">
+                              <a href="#">VIETNAM - MYANMAR</a>
+                            </li>
+                            <li class="nav__mobile-links-item">
+                              <a href="#">VIETNAM - THAILAND</a>
+                            </li>
+                          </ul>
+                        </label>
+      
+                      </div>
+                      <div class="nav__mobile-icon">
+                        <i class="fas fa-chevron-right"></i>
+                      </div>
+                    </li>
+                    <!-- 4 -->
+                    <li class="nav__mobile-items">
+                      <div style="display: block; width: 100%">
+                        <label href="#" for="nav__mobile-check-lv4" class="nav__mobile-links">
+                          TRAVEL SERVICES
+                          <input type="checkbox" hidden name="" id="nav__mobile-check-lv4" class="nav__mb-check-lv4">
+      
+                          <ul class="nav__mobile-links-list4">
+                            <li class="nav__mobile-links-item">
+                              <a href="#">TRANSPORTATION</a>
+                            </li>
+                            <li class="nav__mobile-links-item">
+                              <a href="#">VIETNAM VISA SERVICES</a>
+                            </li>
+                            <li class="nav__mobile-links-item">
+                              <a href="#">FLIGHT TICKET</a>
+                            </li>
+                          </ul>
+                        </label>
+      
+                      </div>
+                      <div class="nav__mobile-icon">
+                        <i class="fas fa-chevron-right"></i>
+                      </div>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </header>
+
+        <div class="app__content">
+            <!-- Banner -->
+            <div class="block-banner">
+                <div class="banner__img" style="background-image: url('./assets/img/hue-vn.jpeg');"></div>
+                <div class="banner__title">
+                    <h1 class="banner__title-text">HUE - PHONG NHA DAY TOURS</h1>
+                    <h5 class="banner__title-sub"> an historic citadel </h5>
+                </div>
+                <div class="form-input-with-search__outside">
+                    <div class="form-input-with-search">
+                        <h2 class="form-input-with-search__title">Find Your Trip!</h2>
+                        <div class="form-input-with-search__main">
+                            <div class="form-input-with-search__country">
+                                <div class="input-group mb-3">
+                                    <select class="custom-select form-input-with-search__country-select"
+                                        id="inputGroupSelect01">
+                                        <option selected><i class="fas fa-map-marker-alt"></i>I want travel to?</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-input-with-search__city">
+                                <div class="input-group mb-3">
+                                    <select class="custom-select form-input-with-search__city-select"
+                                        id="inputGroupSelect01">
+                                        <option>
+                                            <p>
+                                                <div>Loading ...
+                                            </p>
+                                        </option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="form-input-with-search__btn">
+                                    <button type="submit" value=""><i class="fa fa-search"></i> SEARCH</button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <h2 class="form-input-with-search__durations">Duration</h2>
+                        <div class="form-input-with-search__durations-range">
+                            <div class="form-input-with-search__durations-text">
+                                <p><span id="durations-day"></span> day</p>
+                                <p>21 days</p>
+                            </div>
+                            <input type="range" min="0" max="21" value="0" id="durations-range"
+                                class="sliderDurationRange" style="width: 100%">
+                        </div>
+                        <script>
+                            var sliderDurationRange = document.getElementById("durations-range");
+                            var output = document.getElementById("durations-day");
+                            output.innerHTML = sliderDurationRange.value;
+
+                            sliderDurationRange.oninput = function () {
+                                output.innerHTML = this.value;
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item -->
+            <div class="container-fluid block-tours-hue-phongnha">
+                <div class="container">
+                    <div class="travel-deals__list-tour">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 col-mb-responsive"
+                                style="margin-bottom: 3rem">
+                                <div class="travel-deals__items">
+                                    <a href="#" class="travel-deals__item">
+                                        <div class="travel-deals__item-img" style="
+                                      background-image: url(./assets/img/hue1.jpg);
+                                    "></div>
+                                        <div class="travel-deals__item-box-view">
+                                            <div class="box-view__left">
+                                                <div class="box-view__title">
+                                                    <h3>
+                                                        <a href="#" class="box-view__title-text">HUE CITY SMALL GROUP TOUR</a>
+                                                    </h3>
+                                                </div>
+                                                <div class="box-view__description">
+                                                    <p>
+                                                        Hue city tour with Royal tombs, pagodas, romantic Perfume River, the busiest markets and bridges
+                                                    </p>
+                                                </div>
+                                                <div class="box-view__sub">
+                                                    <p>
+                                                        Transportation with A/C, Lunch, E-speaking guide & more
+                                                    </p>
+                                                </div>
+                                                <div class="box-view__day-and-place">
+                                                    <div class="box-view__day">
+                                                        <p>8</p>
+                                                        <p>DAYS</p>
+                                                    </div>
+                                                    <div class="box-view__place">
+                                                        <p class="box-view__place-text">
+                                                            Hue
+                                                        </p>
+                                                        <p class="box-view__place-sub">
+                                                            per person
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="box-view__right">
+                                                <div class="box-view__prices">
+                                                    <a class="box-view__price-new">$458.15</a>
+                                                    <a class="box-view__price-old">VALUED AT $359</a>
+                                                </div>
+                                                <div class="box-view__details">
+                                                    <a>VIEW DETAILS</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="travel-deals__tag-hue-phongnha-tour">
+                                            <span>Hue - Phong Nha Day Tours</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 col-mb-responsive"
+                                style="margin-bottom: 3rem">
+                                <div class="travel-deals__items">
+                                    <a href="#" class="travel-deals__item">
+                                        <div class="travel-deals__item-img" style="
+                                      background-image: url(./assets/img/hue2.jpg);
+                                    "></div>
+                                        <div class="travel-deals__item-box-view">
+                                            <div class="box-view__left">
+                                                <div class="box-view__title">
+                                                    <h3>
+                                                        <a href="#" class="box-view__title-text">Thuy Bieu Village & Tam Giang Lagoon Day Tour</a>
+                                                    </h3>
+                                                </div>
+                                                <div class="box-view__description">
+                                                    <p>
+                                                        Cycling on Thuy Bieu Eco-Village, visit Tam Giang lagoon and more
+                                                    </p>
+                                                </div>
+                                                <div class="box-view__sub">
+                                                    <p>
+                                                        Boat, bicycle, E-speaking guide and more
+                                                    </p>
+                                                </div>
+                                                <div class="box-view__day-and-place">
+                                                    <div class="box-view__day">
+                                                        <p>15</p>
+                                                        <p>DAYS</p>
+                                                    </div>
+                                                    <div class="box-view__place">
+                                                        <p class="box-view__place-text">
+                                                            Hue
+                                                        </p>
+                                                        <p class="box-view__place-sub">
+                                                            per person
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="box-view__right">
+                                                <div class="box-view__prices">
+                                                    <a class="box-view__price-new">$874.65</a>
+                                                    <a class="box-view__price-old">VALUED AT $1.029</a>
+                                                </div>
+                                                <div class="box-view__details">
+                                                    <a>VIEW DETAILS</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="travel-deals__tag-hue-phongnha-tour">
+                                            <span>Hue - Phong Nha Day Tours</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 col-mb-responsive"
+                                style="margin-bottom: 3rem">
+                                <div class="travel-deals__items">
+                                    <a href="#" class="travel-deals__item">
+                                        <div class="travel-deals__item-img" style="
+                                      background-image: url(./assets/img/hue2.jpg);
+                                    "></div>
+                                        <div class="travel-deals__item-box-view">
+                                            <div class="box-view__left">
+                                                <div class="box-view__title">
+                                                    <h3>
+                                                        <a href="#" class="box-view__title-text">Bach Ma National Park Tour</a>
+                                                    </h3>
+                                                </div>
+                                                <div class="box-view__description">
+                                                    <p>
+                                                        Visit Bach Ma National Park, enjoy beautiful scenery of mountain, lakes and more
+                                                    </p>
+                                                </div>
+                                                <div class="box-view__sub">
+                                                    <p>
+                                                        Transportation with A/C vehicle, English Speaking Guide and more
+                                                    </p>
+                                                </div>
+                                                <div class="box-view__day-and-place">
+                                                    <div class="box-view__day">
+                                                        <p>7</p>
+                                                        <p>DAYS</p>
+                                                    </div>
+                                                    <div class="box-view__place">
+                                                        <p class="box-view__place-text">
+                                                            Hue
+                                                        </p>
+                                                        <p class="box-view__place-sub">
+                                                            per person
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="box-view__right">
+                                                <div class="box-view__prices">
+                                                    <a class="box-view__price-new">$310.25</a>
+                                                    <a class="box-view__price-old">VALUED AT $365</a>
+                                                </div>
+                                                <div class="box-view__details">
+                                                    <a>VIEW DETAILS</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="travel-deals__tag-hue-phongnha-tour">
+                                            <span>Hue - Phong Nha Day Tours</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 col-mb-responsive"
+                                style="margin-bottom: 3rem">
+                                <div class="travel-deals__items">
+                                    <a href="#" class="travel-deals__item">
+                                        <div class="travel-deals__item-img" style="
+                                      background-image: url(./assets/img/hue4.jpeg);
+                                    "></div>
+                                        <div class="travel-deals__item-box-view">
+                                            <div class="box-view__left">
+                                                <div class="box-view__title">
+                                                    <h3>
+                                                        <a href="#" class="box-view__title-text">Phong Nha Cave Tour</a>
+                                                    </h3>
+                                                </div>
+                                                <div class="box-view__description">
+                                                    <p>
+                                                        Visit Phong Nha cave, in Phong Nha-Kẻ Bàng National Park, a UNESCO World Heritage Site
+                                                    </p>
+                                                </div>
+                                                <div class="box-view__sub">
+                                                    <p>
+                                                        Transportation with A/C vehicle, Boat, Lunch and more
+                                                    </p>
+                                                </div>
+                                                <div class="box-view__day-and-place">
+                                                    <div class="box-view__day">
+                                                        <p>8</p>
+                                                        <p>DAYS</p>
+                                                    </div>
+                                                    <div class="box-view__place">
+                                                        <p class="box-view__place-text">
+                                                            Hue
+                                                        </p>
+                                                        <p class="box-view__place-sub">
+                                                            per person
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="box-view__right">
+                                                <div class="box-view__prices">
+                                                    <a class="box-view__price-new">$602.65</a>
+                                                    <a class="box-view__price-old">VALUED AT $709</a>
+                                                </div>
+                                                <div class="box-view__details">
+                                                    <a>VIEW DETAILS</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="travel-deals__tag-hue-phongnha-tour">
+                                            <span>Hue - Phong Nha Day Tours</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 col-mb-responsive"
+                                style="margin-bottom: 3rem">
+                                <div class="travel-deals__items">
+                                    <a href="#" class="travel-deals__item">
+                                        <div class="travel-deals__item-img" style="
+                                      background-image: url(./assets/img/hue5.jpeg);
+                                    "></div>
+                                        <div class="travel-deals__item-box-view">
+                                            <div class="box-view__left">
+                                                <div class="box-view__title">
+                                                    <h3>
+                                                        <a href="#" class="box-view__title-text">Paradise Cave Tour</a>
+                                                    </h3>
+                                                </div>
+                                                <div class="box-view__description">
+                                                    <p>
+                                                        Visit Paradise, one of the most beautiful wonder of the creation on Earth
+                                                    </p>
+                                                </div>
+                                                <div class="box-view__sub">
+                                                    <p>
+                                                        Transportation with A/C vehicle
+                                                    </p>
+                                                </div>
+                                                <div class="box-view__day-and-place">
+                                                    <div class="box-view__day">
+                                                        <p>10</p>
+                                                        <p>DAYS</p>
+                                                    </div>
+                                                    <div class="box-view__place">
+                                                        <p class="box-view__place-text">
+                                                            Hue
+                                                        </p>
+                                                        <p class="box-view__place-sub">
+                                                            per person
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="box-view__right">
+                                                <div class="box-view__prices">
+                                                    <a class="box-view__price-new">$561.00</a>
+                                                    <a class="box-view__price-old">VALUED AT $660</a>
+                                                </div>
+                                                <div class="box-view__details">
+                                                    <a>VIEW DETAILS</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="travel-deals__tag-hue-phongnha-tour">
+                                            <span>Hue - Phong Nha Day Tours</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12 col-mb-responsive"
+                                style="margin-bottom: 3rem">
+                                <div class="travel-deals__items">
+                                    <a href="#" class="travel-deals__item">
+                                        <div class="travel-deals__item-img" style="
+                                      background-image: url(./assets/img/hue6.jpg);
+                                    "></div>
+                                        <div class="travel-deals__item-box-view">
+                                            <div class="box-view__left">
+                                                <div class="box-view__title">
+                                                    <h3>
+                                                        <a href="#" class="box-view__title-text">DMZ tour from Hue</a>
+                                                    </h3>
+                                                </div>
+                                                <div class="box-view__description">
+                                                    <p>Khe Sanh Combat Base, Vinh Moc Tunnels, Hien Luong Bridge and Ben Hai River</p>
+                                                </div>
+                                                <div class="box-view__sub">
+                                                    <p>
+                                                        Transportation with A/C vehicle, English Speaking Guide and more
+                                                    </p>
+                                                </div>
+                                                <div class="box-view__day-and-place">
+                                                    <div class="box-view__day">
+                                                        <p>4</p>
+                                                        <p>DAYS</p>
+                                                    </div>
+                                                    <div class="box-view__place">
+                                                        <p class="box-view__place-text">
+                                                            Hue
+                                                        </p>
+                                                        <p class="box-view__place-sub">
+                                                            per person
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="box-view__right">
+                                                <div class="box-view__prices">
+                                                    <a class="box-view__price-new">$135.15</a>
+                                                    <a class="box-view__price-old">VALUED AT $159</a>
+                                                </div>
+                                                <div class="box-view__details">
+                                                    <a>VIEW DETAILS</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="travel-deals__tag-hue-phongnha-tour">
+                                            <span>Hue - Phong Nha Day Tours</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="travel-deals__btn-view-all">
+                            <a href="#">VIEW ALL TOURS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="container-fluid footer-bg">
+            <div class="container">
+                <div class="footer">
+                    <div class="col-lg-4 col-md-12 col-12">
+                        <ul class="footer-col1-list">
+                            <li class="footer-items">
+                                <a href="#" class="footer-logo-link">
+                                    <img src="./assets/img/venus-travel-logo-moi.png" alt="Venus travel logo"
+                                        class="footer-logo">
+                                </a>
+                            </li>
+                            <li class="footer-items">
+                                <div class="footer-logo-slogan">
+                                    <h3>We make your holidays memorable</h3>
+                                </div>
+                            </li>
+                            <li class="footer-items">
+                                <a>Head Office: 147 Mai Dich, Cau Giay, Hanoi, Vietnam</a>
+                            </li>
+                            <li class="footer-items">
+                                <a>Hotline: +84 123 456 789</a>
+                            </li>
+                            <li class="footer-items">
+                                <a>WhatsApp: +84 123 456 789</a>
+                            </li>
+                            <li class="footer-items">
+                                <a>Representative Office: 147 Mai Dich, Cau Giay, Hanoi, Vietnam</a>
+                            </li>
+                            <li class="footer-items">
+                                <a>Mobile: +84 123 456 789</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-6">
+                        <ul class="footer-col2-list">
+                            <li class="footer-items">
+                                <h3>SUPPORT</h3>
+                            </li>
+                            <li class="footer-items">
+                                <a>About us</a>
+                            </li>
+                            <li class="footer-items">
+                                <a>Terms & Conditions</a>
+                            </li>
+                            <li class="footer-items">
+                                <a>Privacy Policy</a>
+                            </li>
+                            <li class="footer-items">
+                                <a>FAQ'S</a>
+                            </li>
+                            <li class="footer-items">
+                                <a>Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-6">
+                        <ul class="footer-col2-list">
+                            <li class="footer-items">
+                                <h3>DESTINATIONS</h3>
+                            </li>
+                            <li class="footer-items">
+                                <a>Vietnam</a>
+                            </li>
+                            <li class="footer-items">
+                                <a>Cambodia</a>
+                            </li>
+                            <li class="footer-items">
+                                <a>Laos</a>
+                            </li>
+                            <li class="footer-items">
+                                <a>Myanmar</a>
+                            </li>
+                            <li class="footer-items">
+                                <a>Thailand</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-6">
+                        <ul class="footer-col2-list">
+                            <li class="footer-items">
+                                <h3>VIETNAM TOUR</h3>
+                            </li>
+                            <li class="footer-items">
+                                <a>Ninh Binh Tours</a>
+                            </li>
+                            <li class="footer-items">
+                                <a>Sapa-Northwest Tours</a>
+                            </li>
+                            <li class="footer-items">
+                                <a>Mekong Delta Tours</a>
+                            </li>
+                            <li class="footer-items">
+                                <a>One Day Tours</a>
+                            </li>
+                            <li class="footer-items">
+                                <a>Halong Tours</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-6">
+                        <ul class="footer-col2-list">
+                            <li class="footer-items">
+                                <h3>MULTI-COUNTRY TOURS</h3>
+                            </li>
+                            <li class="footer-items">
+                                <a>Vietnam - Cambodia</a>
+                            </li>
+                            <li class="footer-items">
+                                <a>Vietnam - Laos</a>
+                            </li>
+                            <li class="footer-items">
+                                <a>Vietnam - Myanmar</a>
+                            </li>
+                            <li class="footer-items">
+                                <a>One Day Tours</a>
+                            </li>
+                            <li class="footer-items">
+                                <a>Vietnam-Thailand</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-partner-facebook-pay">
+                    <div class="col lg-4 col-md-4 col-12">
+                        <div class="footer-partner">
+                            <img src="./assets/img/ft1.png" alt="" class="footer-partner-img">
+                            <img src="./assets/img/ft2.png" alt="" class="footer-partner-img">
+                        </div>
+                    </div>
+                    <div class="col lg-4 col-md-4 col-12 footer-facebook-responsive">
+                        <div class="footer-facebook">
+                            <div class="footer-facebook-avt">
+                                <img src="./assets/img/venus-travel-logo-moi.png" alt=""
+                                    class="footer-facebook-avt-img">
+                            </div>
+                            <div class="footer-facebook-desc">
+                                <a href="#" class="footer-facebook-name">Venus Travel</a>
+                                <div class="footer-facebook-liked">
+                                    <a href="#" class="footer-facebook-like-page"><i
+                                            class="fab fa-facebook-square"></i>Like Page</a>
+                                    <p class="footer-facebook-likes">6.8k likes<p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col lg-4 col-md-4 col-12">
+                        <ul class="footer-pay-list">
+                            <li class="footer-items">
+                                <img src="./assets/img/pay-gate1.png" alt="" class="footer-pay-img">
+                            </li>
+                            <li class="footer-items">
+                                <img src="./assets/img/pay-gate2.png" alt="" class="footer-pay-img">
+                            </li>
+                            <li class="footer-items">
+                                <img src="./assets/img/pay-gate3.png" alt="" class="footer-pay-img">
+                            </li>
+                            <li class="footer-items">
+                                <img src="./assets/img/pay-gate4.png" alt="" class="footer-pay-img">
+                            </li>
+                            <li class="footer-items">
+                                <img src="./assets/img/pay-gate5.png" alt="" class="footer-pay-img">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-copyright">@Venus Travel 2021</div>
+                <div class="footer-social">
+                    <ul class="footer-social-list">
+                        <li class="footer-social-item">
+                            <a href="" class="footer-social-fb"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li class="footer-social-item">
+                            <a href="" class="footer-social-tw"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="footer-social-item">
+                            <a href="" class="footer-social-ytb"><i class="fab fa-youtube"></i></a>
+                        </li>
+                        <li class="footer-social-item">
+                            <a href="" class="footer-social-tripadvisor"><i class="fab fa-tripadvisor"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

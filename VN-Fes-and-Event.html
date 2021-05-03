@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Reset CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+  <!-- Boostrap 4 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!--OWL Crousel -->
+  <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css" />
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+  <!-- FONT TEXT -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap"
+    rel="stylesheet" />
+  <!-- Font Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/base.css" />
+  <link rel="stylesheet" href="./assets/header.css" />
+  <link rel="stylesheet" href="./assets/footer.css" />
+  <link rel="stylesheet" href="./assets/VN-Fes-and-Event-css/VN-Fes-and-Event.css" />
+  <title>VN-Fes-and-Event</title>
+</head>
+
+<body>
+  <div class="app">
+    <header class="header-swallow-travel">
+      <div class="container">
+        <div class="nav__header-2021">
+          <!-- PC -->
+          <nav class="container nav__header hide-on-table-mobile">
+            <div class="nav__menu-left">
+              <div class="menu-left__logo">
+                <a href="http://192.168.31.1:5500/home.html" class="menu-left__logo-link">
+                  <img src="./assets/img/venus-travel-logo-moi.png" alt="" class="menu-left__img" />
+                </a>
+              </div>
+              
+              <div class="menu-left__main hide-on-table-mobile">
+                <ul class="menu-left__main-list" style="display: flex">
+                  <li class="menu-left__main-item">
+                    <div class="dropdown">
+                      <button class="dropbtn">
+                        DESTINATIONS<i class="fas fa-chevron-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                        <a href="http://192.168.31.1:5500/Destination-VietNam.html">VIETNAM</a>
+                        <a href="#">CAMBODIA</a>
+                        <a href="#">LAOS</a>
+                        <a href="#">MYANMAR</a>
+                        <a href="#">THAILAND</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="menu-left__main-item">
+                    <div class="dropdown">
+                      <button class="dropbtn">
+                        VIETNAM TOURS <i class="fas fa-chevron-down"></i>
+                      </button>
+                      <div class="dropdown-content-travel">
+                        <div class="dropdown-content-horizontal">
+                          <div class="col-sm-4">
+                            <div class="submenu-travel">
+                              <img src="./assets/img/7-1563115999223.jpg" alt="" class="submenu-travel__img" />
+                              <div class="submenu-travel__text">
+                                <p>
+                                  <a href="#">ONE DAY TOURS</a>
+                                </p>
+                              </div>
+                            </div>
+                            <ul class="submenu-travel__list">
+                              <li class="submenu-travel__item">
+                                <a href="http://192.168.31.1:5500/Hue-PhongNha-Tours.html" class="submenu-travel__link">Hue - Phong Nha Day Tour</a>
+                              </li>
+                              <li class="submenu-travel__item">
+                                <a href="#" class="submenu-travel__link">Hanoi Day Tour</a>
+                              </li>
+                              <li class="submenu-travel__item">
+                                <a href="#" class="submenu-travel__link">Hoi An Day Tour</a>
+                              </li>
+                              <li class="submenu-travel__item">
+                                <a href="#" class="submenu-travel__link">Da Nang Day Tour</a>
+                              </li>
+                              <li class="submenu-travel__item">
+                                <a href="#" class="submenu-travel__link">Da Lat Day Tour</a>
+                              </li>
+                              <li class="submenu-travel__item">
+                                <a href="#" class="submenu-travel__link">Phu Quoc Day Tour</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-sm-4">
+                            <div class="submenu-travel">
+                              <img src="./assets/img/nhung-khach-san-gia-re-tai-ha-long-ma-ban-nen-biet1.jpg" alt=""
+                                class="submenu-travel__img" />
+                              <div class="submenu-travel__text">
+                                <p>
+                                  <a href="#">HA LONG TOURS</a>
+                                </p>
+                              </div>
+                            </div>
+                            <ul class="submenu-travel__list">
+                              <li class="submenu-travel__item">
+                                <a href="#" class="submenu-travel__link">Luxury Cruises</a>
+                              </li>
+                              <li class="submenu-travel__item">
+                                <a href="#" class="submenu-travel__link">Deluxe Cruises</a>
+                              </li>
+                              <li class="submenu-travel__item">
+                                <a href="#" class="submenu-travel__link">Standard Cruises</a>
+                              </li>
+                              <li class="submenu-travel__item">
+                                <a href="#" class="submenu-travel__link">One Day Cruises</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-sm-4">
+                            <div class="submenu-travel">
+                              <img src="./assets/img/Khiri-Travel-Vietnam-Mekong-Delta.jpg" alt=""
+                                class="submenu-travel__img" />
+                              <div class="submenu-travel__text">
+                                <p>
+                                  <a href="#">MEKONG DELTA TOURS</a>
+                                </p>
+                              </div>
+                            </div>
+                            <div class="submenu-travel">
+                              <img src="./assets/img/go-to-sapa.jpg" alt="" class="submenu-travel__img" />
+                              <div class="submenu-travel__text">
+                                <p>
+                                  <a href="#">SAPA-NORTHWES TOURS</a>
+                                </p>
+                              </div>
+                            </div>
+                            <div class="submenu-travel">
+                              <img src="./assets/img/ninh-binh.jpg" alt="" class="submenu-travel__img" />
+                              <div class="submenu-travel__text">
+                                <p>
+                                  <a href="#">NINH BINH TOURS</a>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="menu-left__main-item">
+                    <div class="dropdown">
+                      <button class="dropbtn">
+                        MULTI-COUNTRY TOURS<i class="fas fa-chevron-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                        <a href="#">VIETNAM - CAMBODIA</a>
+                        <a href="#">VIETNAM - LAOS</a>
+                        <a href="#">VIETNAM - MYANMAR</a>
+                        <a href="#">VIETNAM - THAILAND</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="menu-left__main-item">
+                    <div class="dropdown">
+                      <button class="dropbtn">
+                        TRAVEL SERVICES<i class="fas fa-chevron-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                        <a href="http://192.168.31.1:5500/VN-Fes-and-Event.html">Vietnam's Festivals and Events</a>
+                        <a href="http://192.168.31.1:5500/VN-Visa-Services.html">VIETNAM VISA SERVICES</a>
+                        <a href="#">TRANSPORATION</a>
+                        <a href="#">FLIGHT TICKET</a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="nav__menu-right hide-on-table-mobile ">
+              <a href="mailto:NAME@COMPANY.COM" class="menu-right__mail">
+                <i class="fas fa-envelope"></i>
+                NAME@COMPANY.COM
+              </a>
+            </div>
+          </nav>
+
+          <!-- Mobile -->
+          <div class="menu-left__logo-mb hide-on-pc">
+            <a href="#" class="menu-left__logo-link-mb">
+              <img src="./assets/img/venus-travel-logo-moi.png" alt="" class="menu-left__img-mb" />
+            </a>
+          </div>
+          <label for="nav__mobile-input" class="nav__bars-btn ">
+            <i class="fas fa-bars"></i>
+          </label>
+          <input type="checkbox" hidden name="" id="nav__mobile-input" class="nav__mb-input">
+
+          <nav class="nav__mobile">
+            <ul class="nav__mobile-list">
+              <!-- 1 -->
+              <li class="nav__mobile-items">
+                <label href="#" for="nav__mobile-check-lv1" class="nav__mobile-links">
+                  DESTINATIONS
+                  <input type="checkbox" hidden name="" id="nav__mobile-check-lv1" class="nav__mb-check-lv1">
+
+                  <ul class="nav__mobile-links-list1">
+                    <li class="nav__mobile-links-item">
+                      <a href="#">VIETNAM</a>
+                    </li>
+                    <li class="nav__mobile-links-item">
+                      <a href="#">CAMBODIA</a>
+                    </li>
+                    <li class="nav__mobile-links-item">
+                      <a href="#">LAOS</a>
+                    </li>
+                    <li class="nav__mobile-links-item">
+                      <a href="#">MYANMAR</a>
+                    </li>
+                    <li class="nav__mobile-links-item">
+                      <a href="#">THAILAND</a>
+                    </li>
+                  </ul>
+                </label>
+                <div class="nav__mobile-icon">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </li>
+              <!-- 2 -->
+              <li class="nav__mobile-items">
+                <div style="display: block; width: 100%">
+                  <label href="#" for="nav__mobile-check-lv2" class="nav__mobile-links">
+                    VIETNAM TOURS
+                    <input type="checkbox" hidden name="" id="nav__mobile-check-lv2" class="nav__mb-check-lv2">
+
+                    <ul class="nav__mobile-links-list2">
+                      <li class="nav__mobile-links-item">
+                        <a href="#">ONE DAY TOURS</a>
+                      </li>
+                      <li class="nav__mobile-links-item">
+                        <a href="#">HA LONG TOURS</a>
+                      </li>
+                      <li class="nav__mobile-links-item">
+                        <a href="#">MEKONG TOURS</a>
+                      </li>
+                      <li class="nav__mobile-links-item">
+                        <a href="#">SAPA-NORTHWEST TOURS</a>
+                      </li>
+                      <li class="nav__mobile-links-item">
+                        <a href="#">NINH BINH TOURS</a>
+                      </li>
+                    </ul>
+                  </label>
+
+                </div>
+                <div class="nav__mobile-icon">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </li>
+              <!-- 3 -->
+              <li class="nav__mobile-items">
+                <div style="display: block; width: 100%">
+                  <label href="#" for="nav__mobile-check-lv3" class="nav__mobile-links">
+                    MULTI-COUNTRY TOURS
+                    <input type="checkbox" hidden name="" id="nav__mobile-check-lv3" class="nav__mb-check-lv3">
+
+                    <ul class="nav__mobile-links-list3">
+                      <li class="nav__mobile-links-item">
+                        <a href="#">VIETNAM - CAMBODIA - LAOS</a>
+                      </li>
+                      <li class="nav__mobile-links-item">
+                        <a href="#">VIETNAM - CAMBODIA</a>
+                      </li>
+                      <li class="nav__mobile-links-item">
+                        <a href="#">VIETNAM - LAOS</a>
+                      </li>
+                      <li class="nav__mobile-links-item">
+                        <a href="#">VIETNAM - MYANMAR</a>
+                      </li>
+                      <li class="nav__mobile-links-item">
+                        <a href="#">VIETNAM - THAILAND</a>
+                      </li>
+                    </ul>
+                  </label>
+
+                </div>
+                <div class="nav__mobile-icon">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </li>
+              <!-- 4 -->
+              <li class="nav__mobile-items">
+                <div style="display: block; width: 100%">
+                  <label href="#" for="nav__mobile-check-lv4" class="nav__mobile-links">
+                    TRAVEL SERVICES
+                    <input type="checkbox" hidden name="" id="nav__mobile-check-lv4" class="nav__mb-check-lv4">
+
+                    <ul class="nav__mobile-links-list4">
+                      <li class="nav__mobile-links-item">
+                        <a href="#">TRANSPORTATION</a>
+                      </li>
+                      <li class="nav__mobile-links-item">
+                        <a href="#">VIETNAM VISA SERVICES</a>
+                      </li>
+                      <li class="nav__mobile-links-item">
+                        <a href="#">FLIGHT TICKET</a>
+                      </li>
+                    </ul>
+                  </label>
+
+                </div>
+                <div class="nav__mobile-icon">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="app__content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-12 col-12">
+            <div class="content">
+              <div class="content__title">
+                <h3 class="">Vietnam's Festivals and Events</h3>
+              </div>
+              <div class="content__time-post">Post on: 02 April, 2021</div>
+              <div class="content__intro">
+                <div class="content__text">
+                  <span>
+                    <a>Vietnam</a> has an unique culture that has undergone
+                    over the millennia. This leads to numerous special
+                    festivals where it shows belief and tradition of
+                    Vietnamese people clearly. Apart from admiring
+                    breathtaking natural landscapes, it is also worth enjoying
+                    some of the festivals in Vietnam to get a better
+                    understanding of this peaceful country.</span>
+                </div>
+                <div class="content__text">
+                  <span>
+                    <a>Venus Travel</a> would like to bring you a list of
+                    festivals and events in Vietnam, so you can make a plan
+                    for your trip easily.
+                  </span>
+                </div>
+              </div>
+              <div class="content__paragraph">
+                <ul class="paragraph__list">
+                  <li class="paragraph__items">
+                    <div class="paragraph__title">
+                      <h2>NEW YEAR DAY</h2>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>The night of 31 Dec and 1 Jan every year</span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>
+                        Place: Whole Vietnam, best places to enjoy are big
+                        cities.
+                      </span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>
+                        Most of the festivals, anniversaries and traditional
+                        cultural events of Vietnam are in accordance with its
+                        lunar calendar; however, nowadays, Christian calendar
+                        is widely used throughout the country. Annually, on
+                        the first day in this Western Calendar - January 1st,
+                        joining in the modern breathes of the world, Vietnam
+                        also celebrates the International New Year Day. It’s a
+                        public holiday in Vietnam
+                      </span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>
+                        The International New Year Day brings people a good
+                        opportunity to go out, meet others and participate on
+                        exciting trips as well. Also on the holiday, related
+                        special programs would be broadcasted on local as well
+                        as national channels, and countdown parties would be
+                        taken place at places like Opera House or major
+                        avenues.
+                      </span>
+                    </div>
+                  </li>
+                  <li class="paragraph__items">
+                    <div class="paragraph__title">
+                      <h2>TET FESTIVAL</h2>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Time: 1 – 2 weeks around the first day of Lunar Year
+                        (late January – early February)</span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>
+                        Place: Whole Vietnam, best places to enjoy are big
+                        cities.
+                      </span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>
+                        Tet, or Lunar New Year, is the most important
+                        celebration in Vietnamese culture and a major holiday
+                        across the country. Although the New Year date is
+                        February 12, the days leading up to Tet as well as the
+                        days following it are considered national holidays.
+                        Vietnamese prepare for Tet by cooking specific New
+                        Year foods, cleaning out their homes, buying new
+                        clothing, and paying respects to their ancestors.
+                        Flowering trees are placed outside every home and
+                        office, and a feeling of excitement and cheer envelops
+                        the entire country. On the very first day of Tet,
+                        children will receive a red envelope containing lucky
+                        money from elders.
+                      </span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>
+                        People from all over the country will return to their
+                        hometowns for the Tet holiday, creating heavy demand
+                        for bus, train and plane tickets, as well as hotel
+                        rooms. With many staffs gone home to their families,
+                        businesses and restaurants typically shut for at least
+                        the first few days of Tet. Expect cities to be quiet
+                        during this time, as well as limited dining and
+                        shopping options. We highly recommend you book your
+                        holiday in advance if you travel in this period.
+                      </span>
+                    </div>
+                  </li>
+                  <li class="paragraph__items">
+                    <div class="paragraph__title">
+                      <h2>DONG DA HILL FESTIVAL</h2>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Time: the 5<sup>th</sup> of the Lunar New Year (February)</span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span> Place: Dong Da District, Hanoi </span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>
+                        Dong Da Festival takes place annually on the 5th of
+                        the Lunar New Year, in memory of the great merit
+                        rendered by King Quang Trung - the national hero in
+                        history of anti - invaders.
+                      </span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>
+                        Two centuries ago, Dong Da was a battlefield where
+                        Quang Trung (Nguyen Hue), a Tay Son farmer who later
+                        became a National Hero defeated more than 200,000
+                        soldiers of the Qing invaders. Dong Da Hill became a
+                        glorious historical site of the Vietnamese nation.
+                        Ever since, on the 5th of the first lunar month, Hanoi
+                        people hold a festival to celebrate this historic
+                        victory. The procession includes flags, a processional
+                        parasol, palanquins with a variety of colours, and the
+                        sounds of gongs and drums. The whole procession
+                        participants walk and sometimes dance to the rhythmic
+                        accompaniment of castanets. A group of young people,
+                        dressed in martial suit, then go around and perform a
+                        play that recounts the whole period of the war.
+                      </span>
+                    </div>
+                  </li>
+                  <li class="paragraph__items">
+                    <div class="paragraph__title">
+                      <h2>YEN TU FESTIVAL</h2>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Time: the 9<sup>th</sup> of the first Lunar month to the end of
+                        the 3rd Lunar month ( February – early May)</span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Place: Yen Tu Pagoda, Quang Ninh Province </span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>
+                        The Yen Tu Festival sees Vietnam’s Zen Buddhist
+                        community converge in a spectacular pilgrimage to the
+                        Dong Pagoda in the Yen Tu mountains of Quang Ninh
+                        Province. In the 13<sup>th</sup> century, Vietnam’s King-Monk
+                        Tran Nhan Tong invested heavily in the complex and
+                        founded the first Vietnamese school of Zen Buddhism,
+                        which now contains 11 pagodas and countless shrines.
+                        Solemn processions, prayers, and rites are part of the
+                        yearly festival at Yen Tu, which lasts for three
+                        months in total, from the first day of the lunar
+                        calendar until the end of the third month.
+                      </span>
+                    </div>
+                  </li>
+                  <li class="paragraph__items">
+                    <div class="paragraph__title">
+                      <h2>HUONG PAGODA FESTIVAL</h2>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Time: the 1<sup>st</sup> lunar month to the 3<sup>rd</sup> lunar month
+                        (February to April)
+                      </span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Place: Huong Pagoda, My Duc, Hanoi.</span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>
+                        Huong Pagoda Festival is among the greatest Buddhist
+                        festival in northern part of Vietnam. Huong Pagoda
+                        Festival is also divided into two parts: The
+                        ceremonies and the entertaining activities. Ceremonial
+                        rituals consist of incense offering procession and Zen
+                        ceremony in which Monks and Buddhists offer incense,
+                        flowers, candles and fruits. During the ceremony,
+                        there are two monks performing beautiful and flexible
+                        dances. On the other hand, entertaining activities
+                        include enjoying boat cruise along Yen Stream for
+                        watching picturesque scenery, climbing mountain and
+                        exploring holy caves. It is believed that climbing up
+                        the top of Huong Tich Mountain will bring you
+                        fulfillment and great success in life.
+                      </span>
+                    </div>
+                  </li>
+                  <li class="paragraph__items">
+                    <div class="paragraph__title">
+                      <h2>BAI DINH PAGODA FESTIVAL</h2>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Time: the 6<sup>th</sup> day of the 1<sup>st</sup> Lunar month </span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Place: Bai Dinh Pagoda, Ninh Binh Province</span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>
+                        The festival is held to not only worship the Buddha
+                        and Gods but also honor many significant historical
+                        events related to heroes like Quang Trung, Dinh Bo
+                        Linh. This makes the festival more solemn. On the
+                        first day of the festival, local people from young to
+                        old carry out a colourful procession from the bottom
+                        of Dinh mountain to the main pagoda on the top.
+                        Villagers spend weeks beforehand preparing the floats
+                        and costumes. In the ceremony, many people perform the
+                        traditional musical instrument or hold flags.
+                      </span>
+                    </div>
+                  </li>
+                  <li class="paragraph__items">
+                    <div class="paragraph__title">
+                      <h2>LIM FESTIVAL</h2>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Time: 12<sup>th</sup>-13<sup>th</sup> day of 1<sup>st</sup> lunar month
+                        (February)</span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Place: Lim Village, Bac Ninh Province</span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>
+                        Held in Lim Village 18km from Hanoi, this festival
+                        originally celebrated Ba Mu, who led her life as a
+                        Buddhist nun at Lim pagoda. The festival is held on Ba
+                        Mu’s day of enlightenment and is famous for showcasing
+                        the locals’ unique vocal stylings through Quan Ho folk
+                        songs. The best singers from two villages are chosen
+                        to compete in singing dialogues, which take place in
+                        beautiful natural settings. Thousands of visitors
+                        journey to Lim Village in Bac Ninh province to listen
+                        to renowned “lien anh” and “lien chi” (male and female
+                        Quan Ho singers) performances. The festival also
+                        features competitions of weaving and wrestling, as
+                        well as processions and worship ceremonies.
+                      </span>
+                    </div>
+                  </li>
+                  <li class="paragraph__items">
+                    <div class="paragraph__title">
+                      <h2>AVALOKITESVARA FESTIVAL</h2>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Time: the 19<sup>th</sup> day of the 2<sup>nd</sup> Lunar month (around
+                        March – April)</span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Place: Danang</span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>
+                        The Avalokitesvara Festival in Da Nang is an
+                        opportunity for interested travellers and Buddhists to
+                        come together to honour the bodhisattva
+                        Avalokitesvara. Held at Quan The Am pagoda near Marble
+                        Mountains, the schedule of activities will include
+                        prayer ceremonies, flower releasing, boat racing, as
+                        well as tea, photography and painting exhibits.
+                      </span>
+                    </div>
+                  </li>
+                  <li class="paragraph__items">
+                    <div class="paragraph__title">
+                      <h2>TAY PHUONG PAGODA FESTIVAL</h2>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Time: 17 Apr 2021 - 17 Apr 2021</span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>
+                        Just 20 kilometres outside Hanoi, Tay Phuong Pagoda
+                        has sheltered ancient Buddha statues for centuries.
+                        During this annual festival, locals celebrate by
+                        washing the statues, offering incense, and playing
+                        games together. Visitors can join tug-of-war and human
+                        chess, enjoy puppet performances and observe
+                        traditional ceremonies. Transport to Tay Phuong is
+                        available from tour operators in Hanoi.
+                      </span>
+                    </div>
+                  </li>
+                  <li class="paragraph__items">
+                    <div class="paragraph__title">
+                      <h2>DEATH ANNIVERSARY OF THE HUNG KINGS</h2>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Time: the 8<sup>th</sup> to the 11<sup>th</sup> day of the third lunar
+                        month</span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Place: Phu Thu Province</span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>
+                        Every year, a large number of visitors from all over
+                        the country participate in a national festival – Hung
+                        King Temple Festival – an incense offering ceremony in
+                        honor of Hung Kings, who were instrumental in the
+                        founding of the nation. The main festival day is on
+                        the 10th day of the third lunar March, on which the
+                        National Assembly has approved Vietnamese working
+                        people to annually have one more national holiday to
+                        mark the anniversary of the Hung King’s death.
+                      </span>
+                    </div>
+                  </li>
+                  <li class="paragraph__items">
+                    <div class="paragraph__title">
+                      <h2>DEATH ANNIVERSARY OF THE HUNG KINGS</h2>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Time: the 8<sup>th</sup> to the 11<sup>th</sup> day of the third lunar
+                        month</span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Place: Phu Thu Province</span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>
+                        Every year, a large number of visitors from all over
+                        the country participate in a national festival – Hung
+                        King Temple Festival – an incense offering ceremony in
+                        honor of Hung Kings, who were instrumental in the
+                        founding of the nation. The main festival day is on
+                        the 10th day of the third lunar March, on which the
+                        National Assembly has approved Vietnamese working
+                        people to annually have one more national holiday to
+                        mark the anniversary of the Hung King’s death.
+                      </span>
+                    </div>
+                  </li>
+                  <li class="paragraph__items">
+                    <div class="paragraph__title">
+                      <h2>HUE FESTIVAL</h2>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Time: Every two years in April, May or June</span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Place: Hue, Thua Thien-Hue Province</span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>
+                        Hue Festival is held in April, May or June every two
+                        years. It takes place at 40 venues around the city.
+                        Some of the unique events held include, the Hue Poetry
+                        Festival, Dialogue of Drums and Percussion and Ao Dai
+                        fashion shows. You can also enjoy sporting activities
+                        like kite flying, boat racing, and human chess. As Hue
+                        was the capital of Vietnam during the 19th century,
+                        the festival also hosts re-enactments of royal
+                        ceremonies, such as King Nguyen Hue’s enthronement and
+                        doctorial examinations. Street performances, film
+                        screenings, and art exhibitions are held throughout
+                        the festival week as well. Offering visitors a look
+                        into the city’s rich culture and heritage, Hue
+                        Festival is one of the most popular festivals in
+                        Vietnam.
+                      </span>
+                    </div>
+                  </li>
+                  <li class="paragraph__items">
+                    <div class="paragraph__title">
+                      <h2>REUNIFICATION DAY</h2>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Time: April 30<sup>th</sup></span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>
+                        In the history of Vietnam, April 30th, 1975 is the day
+                        that marks the ending the Vietnam War and leading to
+                        the liberation of Vietnam's southern part. Every year
+                        since, the country celebrates this day as a
+                        commemoration to the reunification between the
+                        Democratic Republic of Vietnam in the North and the
+                        Republic of Vietnam in the South into the Socialist
+                        Republic of Vietnam as we know today. Over a week
+                        prior to April 30th, streets in big cities like Hanoi,
+                        Hue, Da Nang and Ho Chi Minh City are eye-catchingly
+                        decorated with colorful banners, flags and neon
+                        lights. Also, celebration areas are prepared—it could
+                        be a place for parade, or the stage for a national
+                        live show. Also, the next day is International Labor
+                        Day ( May 1st), it becomes one of the biggest public
+                        holiday in the country. If you have any plan to travel
+                        in this period, we highly recommend you book your
+                        holiday in advance.
+                      </span>
+                    </div>
+                  </li>
+                  <li class="paragraph__items">
+                    <div class="paragraph__title">
+                      <h2>MID-AUTUMN'S FESTIVAL</h2>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Time: 15<sup>th</sup> day of the 8<sup>th</sup> lunar month (around
+                        September)</span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Place: all Vietnam, best place: Hoian</span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>
+                        Tet Trung Thu, as it is known in Vietnamese, or the
+                        Mid-Autumn Festival in Vietnam as we refer to in
+                        foreign countries, is a wonderful, ancient festival
+                        that revolves around children.
+                      </span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>
+                        Mid-Autumn Festival in Vietnam takes place on the full
+                        moon night (15<sup>th</sup> of the Lunar August), the most
+                        charming and picturesque night of the year. The
+                        festival involves the customs of moon contemplating,
+                        procession of star & moon – shaped lanterns, lion
+                        dance, as well as holding parties with moon cakes and
+                        fruits.
+                      </span>
+                    </div>
+                  </li>
+                  <li class="paragraph__items">
+                    <div class="paragraph__title">
+                      <h2>CHRISTMAS IN VIETNAM</h2>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Time: 24<sup>th</sup> & 25<sup>th</sup> day December every year</span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>Place: best place to enjoy: Hanoi & Ho Chi Minh
+                        City</span>
+                    </div>
+                    <div class="paragraph__text">
+                      <span>
+                        Although a predominantly Buddhist country, Christmas
+                        in Vietnam is still one of the four main annual
+                        religious festivals including the Lunar New Year, the
+                        mid-autumn festival, Buddha’s birthday. In big cities,
+                        Christmas in Vietnam is a huge event and Christmas
+                        Eve, which is regarded as more important than
+                        Christmas Day in Vietnam, is a grand party when the
+                        fun-loving and sociable Vietnamese, whether being a
+                        Christian or not, celebrate with gusto.
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="content__social">
+                <div>
+                  <a href="#" class="content__social-like"><i class="fas fa-thumbs-up"></i>Like</a>
+                </div>
+                <div>
+                  <a href="#" class="content__social-twitter"><i class="fab fa-twitter"></i>Tweet</a>
+                </div>
+                <div>
+                  <a href="#" class="content__social-share"><i class="fas fa-share"></i>Share</a>
+                </div>
+              </div>
+              <div class="content__cmt-sort">
+                <div class="content__cmt">
+                  <span>0 Commments</span>
+                </div>
+                <div class="content__sort">
+                  <span>Sort by</span>
+                  <select name="sort-comments">
+                    <option value="Oldest">Oldest</option>
+                    <option value="Newest">Newest</option>
+                  </select>
+                </div>
+              </div>
+              <div class="content__comments">
+                <div class="content__avt">
+                  <img src="./assets/img/avt.jpg" alt="Avatar" class="content__img">
+                </div>
+                <div class="content__input-cmt">
+                  <textarea name="" id="" cols="30" rows="10" placeholder="Add a comment..."></textarea>
+                </div>
+              </div>
+              <button type="submit" class="content__submit-post">Post</button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-12">
+            <div class="block-guide">
+              <div class="guide__title">
+                <h3>Vietnam Travel Guide</h3>
+              </div>
+              <ul class="guide__list">
+                <li class="guide__items">
+                  <a href="#">Top Places To Visit</a>
+                </li>
+                <li class="guide__items">
+                  <a href="#">General Informationt</a>
+                </li>
+              </ul>
+            </div>
+            <div class="block-tour-related-head-title">
+              <h3>Tour Related</h3>
+            </div>
+            <div class="block-tour-related">
+              <div class="tour-related__items">
+                <a href="#" class="tour-related__item">
+                  <div class="tour-related__item-img" style="
+                            background-image: url(./assets/img/fes1.jpg);
+                          "></div>
+                  <div class="tour-related__item-box-view">
+                    <div class="tr-box-view__left">
+                      <div class="tr-box-view__title">
+                        <h3>
+                          <a href="#" class="tr-box-view__title-text">THREE WATERFALLS GROUP TOUR</a>
+                        </h3>
+                      </div>
+                      <div class="tr-box-view__day-and-place">
+                        <div class="tr-box-view__day">
+                          <p>1</p>
+                          <p>DAY</p>
+                        </div>
+                        <div class="tr-box-view__place">
+                          <p class="tr-box-view__place-text">
+                            Da Lat
+                          </p>
+                          <p class="tr-box-view__place-sub">
+                            Per person
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tr-box-view__right">
+                      <div class="tr-box-view__prices">
+                        <a class="tr-box-view__price-new">$32</a>
+                      </div>
+                      <div class="tr-box-view__details">
+                        <a>VIEW DETAILS</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tour-related__tag-tour">
+                    <span>Da Lat-Mui Ne Day Tours</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

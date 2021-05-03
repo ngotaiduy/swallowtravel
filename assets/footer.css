@@ -1,0 +1,236 @@
+.footer-bg {
+    background-color: #1b1919;
+    padding: 0 0 .1rem;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    padding: 3.5rem 0;
+}
+
+.footer-logo-slogan,
+.footer-logo-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 13rem;
+    height: 5.6rem;
+}
+
+
+.footer-col1-list,
+.footer-col2-list {
+    list-style: none;
+}
+
+.footer-items {
+    color: #fff;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    text-justify: inter-word;
+}
+
+.footer-items h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.footer-items:hover {
+    color: var(--hover-color);
+}
+
+.footer-items:hover h3 {
+    color: #fff;
+}
+
+.footer-partner-facebook-pay {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.footer-partner {
+    display: flex;
+}
+
+.footer-partner-img {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+.footer-facebook {
+    width: 28rem;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    background-image: url('../assets/img/travel1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: top center;
+    border: 1px solid #fff;
+    margin: 1px 0;
+}
+
+.footer-facebook-avt {
+    width: 5rem;
+    height: 5rem;
+    background-color: #fff;
+    margin: 0 1.2rem;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.footer-facebook-avt-img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-facebook-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-facebook-name {
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 600;
+}
+.footer-facebook-name:hover {
+    color: #fff;
+}
+
+.footer-facebook-like-page i {
+    color: #097fec;
+    margin-right: 4px;
+}
+
+.footer-facebook-like-page {
+    color: #333;
+    background-color: #fff;
+    padding: 2px 8px 2px 4px;
+}
+
+.footer-facebook-like-page:hover {
+    text-decoration: none;
+}
+
+.footer-facebook-liked {
+    display: flex;
+}
+
+.footer-facebook-likes {
+    color: #fff;
+    font-weight: 700;
+    padding: 2px 8px 2px 4px;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 10%);
+}
+
+.footer-pay-list {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+    justify-content: flex-end;
+}
+
+.footer-pay-img {
+    margin-left: 2rem;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: var(--grey-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.ooter-social {
+}
+
+.footer-social-list {
+    list-style: none;
+    display: flex;
+}
+
+.footer-social-item i{
+    font-size: 2rem;
+    color: var(--grey-color);
+    padding: 0 1.5rem;
+}
+
+.footer-social-item:hover .footer-social-fb i{
+    color: #097fec;
+}
+
+.footer-social-item:hover .footer-social-tw i{
+    color: #1c9cea;
+}
+
+.footer-social-item:hover .footer-social-ytb i{
+    color: #f40000;
+}
+
+.footer-social-item:hover .footer-social-tripadvisor i{
+    color: #32da9d;
+}
+
+/* ======================== RESPONSIVE FOOTER  ======================== */
+/** Mobile & Tablet screen <= 1023px */
+@media (max-width: 1023px) {
+    .footer-partner {
+        justify-content: center;
+    }
+
+    .footer-facebook-responsive {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-pay-list {
+        margin-top: 1rem;
+        justify-content: center;
+    }
+
+    .footer-social {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/** Tablet  740px <= screen <= 1023px  */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+/**  Mobile screen <= 739px */
+@media (max-width: 739px) {
+
+}
+
+
+/** Suaface Dou */
+@media (min-width: 539px) and (max-width: 540px) {
+
+}
+
+/** Small Tablet  */
+@media (min-width: 599px) and (max-width: 600px) {
+
+}
+
+/* Nửa màn hình */
+@media (min-width: 760px) and (max-width: 761px) {
+
+}
+

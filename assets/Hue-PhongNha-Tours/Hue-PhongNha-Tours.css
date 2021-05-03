@@ -1,0 +1,181 @@
+/* ================= BANNER ================= */ 
+.block-banner {
+    position: relative;
+}
+.banner__img {
+    padding-top: 37%;
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #f7f7f7;
+}
+
+.banner__title {
+    position: absolute;
+    top: 28%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    text-align: center;
+}
+
+.banner__title-text {
+    font-size: 4.8rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.banner__title-sub {
+    font-size: 2.6rem;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* ================= FORM WITH SEARCH ================= */ 
+.form-input-with-search__outside {
+    position: absolute ;
+    left: 0;
+    right: 0;
+    /* margin-bottom: 9rem; */
+}
+
+
+.form-input-with-search__durations {
+    font-size: 2rem;
+    color: var(--black-text-color);
+    margin: 1rem 0 2rem;
+}
+
+.form-input-with-search__durations-text {
+    font-size: 1.8rem;
+    color: var(--black-text-color);
+    margin: 1rem 0 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-input-with-search__durations-range {
+    width: 100%;
+}
+
+.sliderDurationRange {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.sliderDurationRange:hover {
+    opacity: 1;
+}
+
+.sliderDurationRange::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid var(--blue-color);
+    background: #d3d3d3;
+    cursor: pointer;
+}
+
+.sliderDurationRange::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid var(--blue-color);
+    background: #d3d3d3;
+    cursor: pointer;
+}
+/* ================= BLOCK TOURS HUE PHONG NHA ================= */ 
+.block-tours-hue-phongnha {
+    background-color: #f7f7f7;
+    padding: 9rem 0;
+}
+
+.travel-deals__tag-hue-phongnha-tour {
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    top: 13px;
+    left: 15px;
+    position: absolute;
+    background-color: var(--red-color);
+    padding: 7px 10px;
+}
+
+.travel-deals__tag-hue-phongnha-tour::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 15.2rem;
+    border-width: 1.74rem;
+    border-style: solid;
+    border-color: var(--red-color) transparent;
+}
+
+/* ================= HUE PHONG NHA RESPONSIVE ================= */ 
+/** Mobile & Tablet screen <= 1023px */
+@media (max-width: 1024px) {
+    .banner__img {
+        padding-top: 31%;
+    }
+    .banner__title-text {
+        font-size: 2.4rem;
+    }
+    .banner__title-sub {
+        font-size: 1.4rem;
+    }
+    .block-tours-hue-phongnha {
+        padding: 35rem 0 9rem;
+    }
+    
+    .travel-deals__tag-hue-phongnha-tour {
+        left: unset;
+    }
+}
+
+/** Tablet  740px <= screen <= 1024px  */
+@media (min-width: 740px) and (max-width: 1024px) {
+    
+    .block-tours-hue-phongnha {
+        padding: 33rem 0 9rem;
+    }
+}
+
+/**  Mobile screen <= 739px */
+@media (max-width: 739px) {
+    
+
+}
+
+/** Suaface Dou */
+@media (min-width: 539px) and (max-width: 540px) {
+
+}
+
+/** Small Tablet  */
+@media (min-width: 599px) and (max-width: 600px) {
+
+}
+
+/* Nửa màn hình */
+@media (min-width: 760px) and (max-width: 761px) {
+
+}
+
+
+
+
+
+
+
